@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 l t-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Airpods</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta content="width=1180" name="viewport" id="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/aria-tabs.min.css" />
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/media.css"/>
+	<link rel="stylesheet" href="css/jquery.formstyler.css"/>
+	<link rel="stylesheet" href="css/jquery.formstyler.theme.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+
+</head>
+<body>
+	<!-- modal window -->
+	<div class="wrap-modal" id="modal-window" style="display: none;">
+
+		<form action="senda.php" method="post">
+			<div class="wrap-inputts">
+				<div class="wrap-input-1">
+					<input type="text" name="user_name"  placeholder="Name"  required class="the-input-1">
+				</div>
+				<div class="wrap-input-2">
+					<input id="js-number" type="tel" name="user_phone" required placeholder="Your number" class="the-input-2">
+				</div>
+				<div class="wrap-hw-item">
+					<div id="number-in-modal"><p class="block-of-hw-else-in-modal">1</p></div>
+					<div id="thing-in-modal"><p id="the-thing-in-modal">PCs.</p></div>
+				</div>
+				<div class="wrap-radio-bnt">
+					<div class="rb-1">
+						<input type="radio" name="choose_the_way" id="rb-1" value="Moest express( cash on delivery)" required class="styler">
+						<label for="rb-1"  class="lbl_ib_modal">Moest express( cash on delivery)</label>
+					</div>
+					<div class="rb-2">
+						<input type="radio" name="choose_the_way" id="rb-2" required value="prepayment" class="styler">
+						<label for="rb-2"  class="lbl_ib_modal">prepayment</label>
+					</div>
+				</div>
+				<div class="wrap-to-do-order-modal">
+					<input   type="submit" value="TO REGISTER NOW" id="btn-in-modal">
+					<div id="form_result"></div>
+
+				</div>
+			</div>
+		</form>
+
+	</div>
+									<!-- header -->
+	<div class="wraper-body">
+		<header>
+		<div class="wrap-header">
+			<div class="wrap-of-img-airpods-top">
+				<img src="img/cable.png" alt="" class="imgcable">
+			</div>
+			<div class="wrap-of-img-eclipse-top">
+				<img src="img/eclipse.png" alt="" class="imgeclipse">
+			</div>
+			<div class="wrap-of-img-apple-airpods-sku-top">
+				<img src="img/apple-airpods-sku-header.png" alt="" class="imgapple-airpods-sku">
+			</div>
+			<div class="wrap-of-h1-in-header">
+				<div class="h1-of-header">
+
+
+					<h1>Action! Have time to buy<br>Limited Edition</h1>
+				</div>
+			</div>
+			<div class="wrap-of-eclipse-banner">
+				<div class="ttile-of-the-banner">
+					<p>AirPods</p>
+				</div>
+				<div class="price-of-the-banner">
+					<p id="price">59.99</p>
+					 <p id="grn">$</p>
+				</div>
+				<div class="gift-of-the-banner">
+					<p>+ cable as a gift</p>
+				</div>
+				<div class="title-of-timer">
+					<p>Remained</p>
+				</div>
+				<div class="timer">
+					<p id="hour">05</p><p>:</p><p id="minute">0</p><p>:</p><p id="second">33</p>
+				</div>
+				<div class="btn-of-order">
+					<a data-fancybox data-src="#modal-window" href="javascript:;"><button id="the-btn-of-order">TO REGISTER NOW</button></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="content">
+		<div class="wrap-of-img-crown1">
+			<img src="img/crown-1.png" alt="" class="crown">
+		</div>
+		<div class="wrap-of-img-crown2">
+			<img src="img/crown.png" alt="" class="crown2">
+		</div>
+		<div class="wrap-of-img-crown3">
+			<img src="img/crown-1.png" alt="" class="crown">
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">The Trend of the Future!</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">High quality wireless headphones<span class="tu"> AirPods</span>.</p>
+				</div>
+				<div class="wrap-of-image-block size-big">
+					<img src="img/photo7.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Magic!</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">No more tangled wires.</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo3.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Fashion Accessory</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">С <span class="tu">AirPods</span> With AirPods you will always look stylish!</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo6.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Connection</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">Work with any phone as well as any device<br>supporting Bluetooth.</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo2.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Great Sound</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">Enjoy the fullness of sound thanks to the design with<br>high-quality speakers.</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo1.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Quick charge</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">Work with any phone</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo4.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-block-content">
+			<div class="wrap-of-title-block">
+				<div class="h6-of-block">
+					<h6 class="tac">Compact Storage</h6>
+				</div>
+				<div class="descr-of-block">
+					<p class="tac">Do not take up much space, easily fit even in
+						<br>smallest pocket.</p>
+				</div>
+				<div class="wrap-of-image-block">
+					<img src="img/photo5.png" alt="" class="img-of-block">
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrap-of-eclipse2-banner">
+			<div class="title-of-the-banner2">
+				<p>AirPods</p>
+			</div>
+			<div class="price-of-the-banner2">
+				<p id="price2">59.99</p>
+				 <p id="grn2">$</p>
+			</div>
+			<div class="hw-else">
+					<div id="number">
+						<p class="block-of-hw-else">1</p>
+					</div>
+					<div id="thing">
+						<p id="thing">PCs.</p>
+					</div>
+			</div>
+			<div class="btn-of-order2">
+				<a data-fancybox data-src="#modal-window" href="javascript:;"><button id="the-btn-of-order2">ORDER DISCOUNT</button></a>
+			</div>
+		</div>
+		<div class="wrap-gow-to-order">
+			<h4 class="title-of-how-to-order">How To Order?</h4>
+			<div class="wrap-of-item-order">
+				<div class="number-of-item"><p class="the_number">1.</p></div>
+				<div class="value-of-item"><p class="the_value">Making an order<br>Leave your details (name and contact phone number).</p></div>
+			</div>
+			<div class="wrap-of-item-order">
+				<div class="number-of-item"><p class="the_number">2.</p></div>
+				<div class="value-of-item"><p class="the_value">Order confirmation<br>We call you and update the data for sending and payment.</p></div>
+			</div>
+			<div class="wrap-of-item-order">
+				<div class="number-of-item"><p class="the_number">3.</p></div>
+				<div class="value-of-item"><p class="the_value">Sending Your order<br>We send the day of the order by New Mail.</p></div>
+			</div>
+			<div class="wrap-of-item-order">
+				<div class="number-of-item"><p class="the_number">4.</p></div>
+				<div class="value-of-item"><p class="the_value">Receiving Your order<br>You are satisfied, and we are waiting for your feedback!</p></div>
+			</div>
+			<div class="btn-of-order3">
+				<a data-fancybox data-src="#modal-window" href="javascript:;"><button id="the-btn-of-order3">TO REGISTER NOW</button></a>
+			</div>
+		</div>
+		<div class="wrap-delivery">
+			<h4 class="h4-delivery">Delivery</h4>
+			<div class="wrap-item-delivery">
+				<div class="block-round">
+					<img src="img/over.png" alt="" class="imgoverk">
+				</div>
+				<div class="value-of-delivery">
+					<p class="the-value-of-delivery">
+						Sending New Mail throughout Ukraine
+					</p>
+				</div>
+			</div>
+			<div class="wrap-item-delivery">
+				<div class="block-round">
+					<img src="img/over.png" alt="" class="imgoverk">
+				</div>
+				<div class="value-of-delivery">
+					<p class="the-value-of-delivery">
+						Address delivery by courier of New Mail
+					</p>
+				</div>
+			</div>
+			<div class="wrap-item-delivery">
+				<div class="block-round">
+					<img src="img/over.png" alt="" class="imgoverk">
+				</div>
+				<div class="value-of-delivery">
+					<p class="the-value-of-delivery">
+						Delivery time 1-3 days (depends on your city)
+
+					</p>
+				</div>
+			</div>
+			<div class="wrap-item-delivery">
+				<div class="block-round">
+					<img src="img/over.png" alt="" class="imgoverk">
+				</div>
+				<div class="value-of-delivery">
+					<p class="the-value-of-delivery">
+						Free storage period For your order in the New Post office 5 days.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-deep-footer">
+			<div class="block-about-us">
+				<div class="the-block-about-us">
+					<p class="abou-us">
+						First of all, we think about our customers!
+						The headphones in our store are
+						analog of the original wireless
+						airpods.
+					</p>
+				</div>
+			</div>
+			<div class="block-addres">
+				<div class="the-block-addres">
+					<p class="addres">
+						USA, Los-Angeles <br> What's app/Telegram
+					</p>
+					<p class="our-phone-number">+1 323-323-3233</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrap-of-img-airpods-footer">
+			<img src="img/footer.png" alt="" class="imgfooter">
+		</div>
+		<div class="wrap-of-img-eclipse2-footer">
+			<img src="img/eclipse2.png" alt="" class="imgeclipse2">
+		</div>
+		<div class="wrap-of-img-reverse-footer">
+			<img src="img/reverse.png" alt="" class="imgreverse">
+		</div>
+		<div class="wrap-of-img-nv-footer">
+			<img src="img/nv.png" alt="" class="imgnv">
+		</div>
+	</footer>
+	</div>
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/jquery.formstyler.min.js"></script>
+	<script src="libs/jquery.fancybox.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="libs/inputmask/inputmask.js"></script>
+	<script src="libs/inputmask/jquery.inputmask.js"></script>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $("#btn-in-modal").submit(function() {
+                var form_data = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "senda.php",
+                    data: form_data,
+                    success: function() {
+
+                        alert("You message sumbit!");
+                    },});
+            });
+        });
+	</script>
+</body>
+</html>

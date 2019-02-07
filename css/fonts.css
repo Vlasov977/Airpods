@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'TCM-Bold';
+	src: url("../fonts/font/tcb.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: 'TCM-Regular';
+	src: url("../fonts/font/tcm-regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Sunline';
+	src: url("../fonts/font/Sunline.otf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+

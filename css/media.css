@@ -1,0 +1,1087 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1500px) {
+	*::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+	text-align: center;
+	font-family: 'TCM-Regular';
+	font-size: 20px;
+}
+*:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+	text-align: center;
+	font-family: 'TCM-Regular';
+	font-size: 20px;
+}
+*::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+	text-align: center;
+	font-family: 'TCM-Regular';
+	font-size: 20px;
+}
+*:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+	text-align: center;
+	font-family: 'TCM-Regular';
+	font-size: 20px;
+}
+	.wrap-of-img-nv-footer {
+    position: absolute;
+    height: 880px;
+    left: 41px;
+    top: 698px;
+    z-index: -3;
+}
+body {
+	font-size: 15px;
+	background-image: -webkit-linear-gradient(#CF6449 0%, #C738D4 65%, #CF6449 90%);
+	background-image: -o-linear-gradient(#CF6449 0%, #C738D4 65%, #CF6449 90%);
+	background-image: linear-gradient(#CF6449 0%, #C738D4 65%, #CF6449 90%);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/*height: 8300px;*/
+
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 49%;
+    border-radius: 50%;
+    height: 100%;
+    margin-top: 4%;
+}
+.wrap-inputts {
+    width: 51%;
+    margin-left: 24.9%;
+}
+.wrap-input-1{
+
+}
+.wrap-input-2{
+	
+}
+.the-input-1 {
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	border: none;
+    margin-top: 25%;
+    height: 59px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: -o-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: linear-gradient(to right, #CF6449, #C738D4);
+}
+.the-input-2 {
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+    margin-top: 8.5%;
+    height: 59px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: -o-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: linear-gradient(to right, #CF6449, #C738D4);
+    border: none;
+}
+.wrap-hw-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+#number-in-modal {
+    font-family: 'TCM-Bold';
+    text-align: center;
+    color: #fff;
+    font-size: 39px;
+    height: 2%;
+    border-radius: 25%;
+    width: 28%;
+    background-color: #C738D4;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 6%;
+}
+.lbl_ib_modal{
+	font-size: 15px;
+}
+#thing-in-modal {
+    margin-top: 11%;
+	color: #C738D4;
+	font-size: 15px;
+}
+.rb-1 {
+    margin-top: 4%;
+}
+.rb-2 {
+    margin-top: 4%;
+}
+#btn-in-modal {
+	border: none;
+	font-size: 19px;
+    height: 59px;
+    width: 100%;
+    margin-top: 8%;
+    color: #fff;
+    background-image: -webkit-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: -o-linear-gradient(to right, #CF6449, #C738D4);
+    background-image: linear-gradient(to right, #CF6449, #C738D4);
+}
+	.wrap-of-eclipse-banner{
+	margin-top: 7%;
+}
+	.wrap-of-eclipse2-banner {
+   margin-left: 36.5%;
+    margin-top: 18.5%;
+}
+#the-btn-of-order2 {
+    width: 64%;
+}
+.ttile-of-the-banner {
+    margin-left: 65%;
+    
+}
+.price-of-the-banner {
+    margin-left: 64%;
+    
+}
+.gift-of-the-banner {
+    margin-left: 65.5%;
+    font-size: 45px;
+}
+.title-of-timer{
+    margin-left: 66%;
+
+}
+.timer {
+    margin-left: 65.5%;
+}
+.btn-of-order {
+    margin-left: 65.8%;
+}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body {
+	/*height: 7300px;*/
+
+}
+*::-webkit-input-placeholder {
+	font-size: 18px;
+}
+*:-moz-placeholder {
+	font-size: 18px;
+}
+*::-moz-placeholder {
+	font-size: 18px;
+}
+*:-ms-input-placeholder {
+	font-size: 18px;
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 464px;
+    border-radius: 50%;
+    height: 550px;
+    margin-top: 4%;
+}
+.the-input-2 {
+    height: 50px;
+}
+.the-input-1 {
+    height: 50px;
+}
+#number-in-modal {
+    font-size: 31px;
+}
+.lbl_ib_modal {
+	font-size: 12px;
+}
+#btn-in-modal {
+    font-size: 17px;
+    height: 50px;
+    width: 92%;
+    margin-top: 4%;
+}
+.h1-of-header {
+    font-size: 26px;
+}
+.imgcable {
+    height: 290px;
+}
+.imgeclipse {
+    height: 874px;
+}
+
+.imgapple-airpods-sku {
+    height: 276%;
+}
+.ttile-of-the-banner {
+    font-size: 105px;
+}
+#price {
+    font-size: 125px;
+}
+#grn {
+    font-size: 61px;
+}
+.gift-of-the-banner {
+    font-size: 37px;
+}
+.title-of-timer {
+    font-size: 42px;
+}
+.timer {
+    font-size: 75px;
+}
+#the-btn-of-order {
+    font-size: 19px;
+    width: 74%;
+}
+/*Контент*/
+.size-big {
+    height: 546px;
+}
+.wrap-of-title-block {
+    font-size: 53px;
+}
+.descr-of-block {
+    font-size: 24px;
+}
+/*футер*/
+.wrap-of-img-eclipse2-footer {
+    left: 363px;
+    height: 677px;
+}
+.wrap-of-img-airpods-footer {
+    left: 79px;
+    top: -211px;
+    height: 642px;
+}
+.wrap-of-img-reverse-footer {
+    top: -237px;
+}
+.title-of-how-to-order {
+    font-size: 39px;
+}
+.number-of-item {
+    font-size: 79px;
+}
+.value-of-item {
+    font-size: 19px;
+}
+.wrap-of-img-nv-footer {
+    height: 583px;
+    left: 41px;
+}
+#the-btn-of-order3 {
+    font-size: 18px;
+}
+.wrap-of-img-nv-footer {
+    height: 502px;
+    left: 41px;
+}
+.wrap-item-delivery {
+    width: 60%;
+    margin-left: 20%;
+}
+.block-about-us {
+    font-size: 30px;
+}
+.addres {
+    font-size: 30px;
+}
+.our-phone-number {
+    font-size: 37px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body {
+	/*height: 6800px;*/
+
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 61%;
+    border-radius: 50%;
+    height: 85%;
+    margin-top: 4%;
+}
+   .h1-of-header {
+    font-size: 21px;
+}
+.imgcable {
+    height: 250px;
+}
+.imgeclipse {
+    height: 771px;
+}
+.imgapple-airpods-sku {
+    height: 230%;
+}
+.wrap-of-eclipse-banner {
+    margin-top: 7%;
+    margin-left: -168px;
+}
+.ttile-of-the-banner {
+    font-size: 97px;
+}
+#price {
+    font-size: 113px;
+}
+#grn {
+    font-size: 53px;
+}
+.gift-of-the-banner {
+    font-size: 32px;
+}
+.title-of-timer {
+    font-size: 37px;
+}
+.timer {
+    font-size: 66px;
+}
+#the-btn-of-order {
+    font-size: 17px;
+    width: 69%;
+}
+/*Контент*/
+.size-big {
+    height: 469px;
+}
+.wrap-of-title-block {
+    font-size: 51px;
+}
+.descr-of-block {
+    font-size: 23px;
+}
+.wrap-of-image-block {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -7px;
+    margin-bottom: 44px;
+}
+/*футер*/
+.wrap-of-img-airpods-footer {
+    left: -85px;
+    height: 550px;
+    top: -151px;
+}
+.wrap-of-img-eclipse2-footer {
+    left: 195px;
+    height: 625px;
+}
+.title-of-the-banner2 {
+    font-size: 74px;
+}
+#price2 {
+    font-size: 72px;
+}
+#grn2 {
+    font-size: 39px;
+}
+.wrap-of-eclipse2-banner {
+    margin-left: 18.5%;
+}
+.hw-else {
+    position: relative;
+    left: -144px;
+}
+#the-btn-of-order2 {
+    font-size: 19px;
+}
+.wrap-of-img-reverse-footer {
+    top: -200px;
+    height: 633px;
+}
+.wrap-of-img-nv-footer {
+    height: 394px;
+    left: 68px;
+}
+.value-of-item {
+    font-size: 18px;
+}
+.number-of-item {
+    font-size: 76px;
+}
+.btn-of-order3 {
+    margin-top: -22px;
+    margin-left: 25%;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+.wrap-gow-to-order {
+    margin-left: -163px;
+    margin-top: 15%;
+}
+.btn-of-order3 {
+    width: 37%;
+}
+.wrap-of-img-nv-footer {
+    height: 356px;
+    left: 23px;
+    top: 620px;
+}
+.wrap-item-delivery {
+    width: 80%;
+    margin-left: 10%;
+}
+.h4-delivery {
+    font-size: 54px;
+}
+.value-of-delivery {
+    font-size: 30px;
+}
+.block-about-us {
+    font-size: 25px;
+}
+.addres {
+    font-size: 25px;
+}
+.our-phone-number {
+    font-size: 30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+	/*height: 5900px;*/
+
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 451px;
+    border-radius: 50%;
+    height: 460px;
+    margin-top: 4%;
+}
+.the-input-2 {
+    height: 40px;
+}
+.the-input-1 {
+    height: 40px;
+}
+#number-in-modal {
+    font-size: 29px;
+}
+.lbl_ib_modal {
+	font-size: 12px;
+}
+#btn-in-modal {
+    font-size: 17px;
+    height: 40px;
+    width: 92%;
+    margin-top: 3%;
+}
+	.h1-of-header {
+    font-size: 17px;
+}
+.imgcable {
+    height: 220px;
+}
+.imgeclipse {
+    height: 629px;
+}
+.imgapple-airpods-sku {
+    height: 212%;
+}
+.wrap-of-eclipse-banner {
+    margin-top: 14%;
+    margin-left: -168px;
+}
+.ttile-of-the-banner {
+    font-size: 82px;
+}
+#price {
+    font-size: 100px;
+}
+#grn {
+    font-size: 44px;
+}
+.gift-of-the-banner {
+    font-size: 24px;
+}
+.title-of-timer {
+    font-size: 27px;
+}
+.timer {
+    font-size: 56px;
+}
+#the-btn-of-order {
+    font-size: 14px;
+    width: 73%;
+}
+/*контент*/
+.size-big {
+    height: 402px;
+}
+.wrap-of-title-block {
+    font-size: 49px;
+}
+.descr-of-block {
+    font-size: 21px;
+}
+.wrap-of-image-block {
+    width: 80%;
+    margin-left: 10%;
+}
+/*футер*/
+.wrap-of-eclipse2-banner {
+    margin-left: 1.5%;
+}
+.wrap-of-img-airpods-footer {
+    left: -145px;
+    height: 506px;
+    top: -124px;
+}
+.wrap-of-img-eclipse2-footer {
+    left: 55px;
+    height: 595px;
+}
+.wrap-of-img-reverse-footer {
+    top: -108px;
+    height: 510px;
+}
+.wrap-item-delivery {
+    width: 90%;
+    margin-left: 5%;
+}
+.h4-delivery {
+    font-size: 49px;
+}
+.value-of-delivery {
+    font-size: 27px;
+}
+.value-of-delivery {
+    font-size: 25px;
+}
+.block-about-us {
+    font-size: 24px;
+}
+.addres {
+    font-size: 24px;
+}
+.our-phone-number {
+    font-size: 26px;
+}
+}
+@media only screen and (max-width : 650px) {
+	body {
+	/*height: 5200px;*/
+
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 82%;
+    border-radius: 50%;
+    height: 420px;
+    margin-top: 4%;
+}
+.the-input-2 {
+    height: 40px;
+}
+.the-input-1 {
+    height: 40px;
+}
+#number-in-modal {
+    font-size: 26px;
+}
+.lbl_ib_modal {
+	font-size: 11px;
+}
+*::-webkit-input-placeholder {
+	font-size: 16px;
+}
+*:-moz-placeholder {
+	font-size: 16px;
+}
+*::-moz-placeholder {
+	font-size: 16px;
+}
+*:-ms-input-placeholder {
+	font-size: 16px;
+}
+#btn-in-modal {
+    font-size: 15px;
+    height: 40px;
+    width: 92%;
+    margin-top: 3%;
+}
+.h1-of-header {
+    font-size: 16px;
+}
+.imgcable {
+    height: 215px;
+}
+.imgeclipse {
+    height: 592px;
+}
+.imgapple-airpods-sku {
+    height: 200%;
+}
+.wrap-of-eclipse-banner {
+    margin-top: 22%;
+    margin-left: -219px;
+}
+.ttile-of-the-banner {
+    font-size: 74px;
+}
+#price {
+    font-size: 92px;
+}
+#grn {
+    font-size: 36px;
+}
+.gift-of-the-banner {
+    font-size: 19px;
+    padding-bottom: 14px;
+}
+.title-of-timer {
+	padding-bottom: 17px;
+    font-size: 21px;
+}
+.timer {
+    font-size: 49px;
+}
+#the-btn-of-order {
+    font-size: 14px;
+    width: 73%;
+}
+/*контент*/
+.wrap-of-title-block {
+    font-size: 45px;
+}
+.descr-of-block {
+    font-size: 18px;
+}
+/*футер*/
+.wrap-of-img-airpods-footer {
+    left: -134px;
+    height: 385px;
+    top: -74px;
+}
+.wrap-of-img-eclipse2-footer {
+    left: 55px;
+    height: 466px;
+    top: -49px;
+}
+.wrap-of-eclipse2-banner {
+    margin-left: -7.5%;
+}
+.title-of-the-banner2 {
+    font-size: 54px;
+}
+#price2 {
+    font-size: 62px;
+}
+#grn2 {
+    font-size: 26px;
+}
+.hw-else {
+    left: -129px;
+}
+#the-btn-of-order2 {
+    font-size: 16px;
+    height: 63px;
+}
+.wrap-of-img-reverse-footer {
+    top: -108px;
+    height: 510px;
+}
+.wrap-gow-to-order {
+    margin-left: -163px;
+    margin-top: 25%;
+}
+.title-of-how-to-order {
+    font-size: 31px;
+}
+.number-of-item {
+    font-size: 59px;
+}
+.value-of-item {
+    font-size: 16px;
+}
+.wrap-of-img-nv-footer {
+    height: 283px;
+    left: 23px;
+    top: 522px;
+}
+.block-about-us {
+    font-size: 19px;
+}
+.addres {
+    font-size: 19px;
+}
+.our-phone-number {
+    font-size: 20px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   .h1-of-header {
+    font-size: 12px;
+    margin-left: 4.8%;
+    margin-top: 24%;
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 363px;
+    border-radius: 50%;
+    height: 362px;
+    margin-top: 4%;
+}
+.the-input-2 {
+    height: 30px;
+}
+.the-input-1 {
+    height: 30px;
+    margin-top: 22%;
+}
+#number-in-modal {
+    font-size: 23px;
+}
+.lbl_ib_modal {
+	font-size: 11px;
+}
+*::-webkit-input-placeholder {
+	font-size: 15px;
+}
+*:-moz-placeholder {
+	font-size: 15px;
+}
+*::-moz-placeholder {
+	font-size: 15px;
+}
+*:-ms-input-placeholder {
+	font-size: 15px;
+}
+#btn-in-modal {
+    font-size: 12px;
+    height: 30px;
+    width: 92%;
+    margin-top: 3%;
+}
+.imgcable {
+    height: 104px;
+}
+.imgeclipse {
+    height: 480px;
+}
+.wrap-of-img-apple-airpods-sku-top {
+    z-index: -1;
+    position: absolute;
+    top: 27px;
+    left: -194px;
+    height: 220px;
+}
+.imgapple-airpods-sku {
+    height: 220%;
+}
+.wrap-of-eclipse-banner {
+    margin-top: 21%;
+    margin-left: -231px;
+}
+.ttile-of-the-banner {
+    font-size: 62px;
+    padding-top: 5px;
+}
+#price {
+    font-size: 76px;
+}
+#grn {
+    font-size: 26px;
+}
+.gift-of-the-banner {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+.title-of-timer {
+	padding-bottom: 17px;
+    font-size: 19px;
+}
+.timer {
+    font-size: 38px;
+}
+#the-btn-of-order {
+    font-size: 15px;
+    width: 97%;
+}
+/*контент*/
+.wrap-of-title-block {
+    font-size: 40px;
+}
+.descr-of-block {
+    font-size: 16px;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+.wrap-of-image-block {
+    width: 90%;
+    margin-left: 5%;
+}
+.size-big {
+    height: auto;
+}
+/*футер*/
+.wrap-of-img-eclipse2-footer {
+    left: 7px;
+    height: 415px;
+    top: -33px;
+}
+.wrap-of-img-airpods-footer {
+    left: -94px;
+    height: 343px;
+    top: -74px;
+}
+.wrap-of-eclipse2-banner {
+    margin-left: 10.5%;
+}
+.btn-of-order2 {
+    margin-top: 48px;
+    margin-left: 29.5%;
+}
+#the-btn-of-order2 {
+    font-size: 13px;
+    height: 63px;
+    width: 76%;
+}
+.wrap-of-img-reverse-footer {
+    top: -94px;
+    height: 416px;
+}
+.title-of-how-to-order {
+    font-size: 28px;
+    margin-left: 36px;
+}
+.wrap-of-item-order {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 80%;
+    margin-left: 18%;
+    height: auto;
+    margin-bottom: 13.5%;
+}
+.wrap-gow-to-order {
+    margin-left: -38px;
+    margin-top: 25%;
+}
+.number-of-item {
+    font-size: 43px;
+    margin-top: -27px;
+    width: 16%;
+}
+.value-of-item {
+    font-size: 14px;
+    width: 90%;
+}
+.btn-of-order3 {
+    width: 58%;
+    margin-left: 22%;
+}
+#the-btn-of-order3 {
+    font-size: 16px;
+}
+.wrap-of-img-nv-footer {
+    height: 219px;
+    left: 17px;
+    top: 565px;
+}
+.value-of-delivery {
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.block-about-us {
+    width: 100%;
+}
+.block-addres {
+    width: 100%;
+    margin-top: 15px;
+}.wrap-of-deep-footer{
+	display: block;
+}
+.block-about-us {
+    margin-left: -13%;
+    margin-bottom: 15px;
+}
+.the-block-addres {
+    margin-right: 11%;
+}
+
+    @media only screen and (max-width : 376px) {
+        .hw-else{
+            left:0;
+            margin-left: 48.4%;
+        }
+        .img-of-block{
+            height: auto;
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	body{
+		/*height: 5000px*/
+	}
+	.h1-of-header {
+    font-size: 11px;
+    margin-left: 4.8%;
+    margin-top: 24%;
+}
+.imgcable {
+    height: 104px;
+}
+.wrap-of-eclipse-banner {
+    margin-top: 21%;
+    margin-left: -231px;
+}
+.wrap-modal {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 50%;
+    height: 350px;
+    margin-top: 4%;
+}
+*::-webkit-input-placeholder {
+	font-size: 13px;
+}
+*:-moz-placeholder {
+	font-size: 13px;
+}
+*::-moz-placeholder {
+	font-size: 13px;
+}
+*:-ms-input-placeholder {
+	font-size: 13px;
+}
+#btn-in-modal {
+    font-size: 12px;
+    height: 30px;
+    width: 92%;
+    margin-top: 3%;
+}
+.the-input-1 {
+    height: 30px;
+    margin-top: 28%;
+}
+.imgeclipse {
+    height: 405px;
+}
+.wrap-of-img-apple-airpods-sku-top {
+    z-index: -1;
+    position: absolute;
+    top: 27px;
+    left: -194px;
+    height: 220px;
+}
+.imgapple-airpods-sku {
+    height: 190%;
+}
+.ttile-of-the-banner {
+    font-size: 53px;
+}
+#price {
+    font-size: 64px;
+}
+#grn {
+    font-size: 23px;
+    padding-top: 30px;
+}
+.gift-of-the-banner {
+    font-size: 15px;
+    padding-bottom: 14px;
+}
+.title-of-timer {
+	padding-bottom: 15px;
+    font-size: 19px;
+}
+.timer {
+    font-size: 36px;
+}
+#the-btn-of-order {
+    font-size: 12px;
+    width: 70%;
+}
+/*футер*/
+.wrap-of-eclipse2-banner {
+    margin-left: -5.5%;
+}
+.title-of-the-banner2 {
+    font-size: 38px;
+}
+.hw-else {
+    left: 4px;
+    width: 48%;
+}
+#the-btn-of-order2 {
+    font-size: 11px;
+    height: 55px;
+    width: 69%;
+}
+.btn-of-order2 {
+    margin-top: 9px;
+    margin-left: 38.5%;
+}
+.wrap-of-img-eclipse2-footer {
+    left: 7px;
+    height: 327px;
+    top: -33px;
+}
+.wrap-of-img-nv-footer {
+    height: 175px;
+    left: 17px;
+    top: 498px;
+}
+.wrap-of-img-airpods-footer {
+    left: -51px;
+    height: 199px;
+    top: 2px;
+}
+.value-of-delivery {
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: 12px;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
